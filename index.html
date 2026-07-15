@@ -1,76 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Auto Workflow Integrator</title>
+    <title>Privacy Policy - Hỗ trợ nghiệp vụ cấp xã</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #f9f9f9;
-        }
-
-        .container {
-            background-color: #fff;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-
-        h1,
-        h2 {
-            color: #2c3e50;
-        }
-
-        h1 {
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 10px;
-        }
-
-        ul {
-            margin-bottom: 15px;
-        }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; line-height: 1.6; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; background-color: #fafafa; }
+        .container { background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        h1 { color: #0056b3; border-bottom: 2px solid #0056b3; padding-bottom: 10px; font-size: 24px; }
+        h2 { color: #2c3e50; margin-top: 30px; font-size: 18px; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 8px; }
+        code { background: #f1f2f6; padding: 2px 6px; border-radius: 4px; font-family: monospace; font-size: 14px; }
+        .footer { margin-top: 40px; font-size: 12px; color: #7f8c8d; text-align: center; border-top: 1px solid #eee; padding-top: 20px; }
     </style>
 </head>
-
 <body>
     <div class="container">
-        <h1>Privacy Policy</h1>
-        <p><strong>Last updated:</strong> July 14, 2026</p>
+        <h1>PRIVACY POLICY</h1>
+        <p><strong>Extension Name:</strong> Hỗ trợ nghiệp vụ cấp xã</p>
+        <p><strong>Item ID:</strong> ccghmgkhpefbiknlbokkfelpmhfbakel</p>
+        <p><em>Last Updated: July 15, 2026</em></p>
 
-        <p>Thank you for using the <strong>Auto Workflow Integrator</strong> extension. We are committed to protecting
-            your privacy and data. This policy explains how our extension operates and handles data.</p>
+        <p>We are fully committed to protecting your privacy. This Privacy Policy outlines how the "Hỗ trợ nghiệp vụ cấp xã" extension handles and protects your data while operating on authorized official document management systems.</p>
 
-        <h2>1. Data Collection and Use</h2>
-        <p>This extension <strong>DOES NOT</strong> collect, store, sell, or share any personal user data with third
-            parties. The extension operates entirely locally on your browser for the sole purpose of automating
-            repetitive administrative tasks.</p>
-
-        <h2>2. Requested Permissions</h2>
+        <h2>1. Data We Process (Data Collection)</h2>
+        <p>In accordance with our declarations on the Chrome Web Store, our extension accesses and temporarily processes the following data locally on your device:</p>
         <ul>
-            <li><strong>Host Permissions:</strong> The extension only operates on specifically designated internal
-                document management domains (qlvb.tphcm.gov.vn, dhtn.dcs.vn, phuongbinhtay.vn). It interacts with the
-                web interface (DOM) to simulate user clicks and form filling.</li>
-            <li><strong>Storage:</strong> We use <code>chrome.storage.local</code> to temporarily store operational
-                commands (e.g., document IDs, action states) to maintain the automation workflow when a page reloads.
-                This data is stored locally on your device and is automatically cleared once the process is complete.
-            </li>
+            <li><strong>User Activity:</strong> We monitor specific mouse click events (e.g., clicking on action buttons such as <code>#ChuyenDongThoi</code>, <code>#ChuyenXuLyUBND</code>). This is strictly necessary to trigger consecutive automated workflow actions.</li>
+            <li><strong>Website Content:</strong> We read structural data from the DOM, specifically document identification numbers (such as <code>data-tphcm</code> or <code>data-fly-ids</code> attributes), to transfer task information accurately between authorized administrative web pages.</li>
         </ul>
 
-        <h2>3. Authentication Information</h2>
-        <p>The extension does not read, record, or interfere with passwords, PINs, or any security authentication
-            information of the user.</p>
+        <h2>2. Permissions Justification</h2>
+        <ul>
+            <li><strong>Storage Permission:</strong> The <code>chrome.storage.local</code> API is used exclusively to store temporary, session-based commands (including the action type, task ID, and timestamp). This allows the extension to maintain automation continuity across page reloads and tab navigations.</li>
+            <li><strong>Host Permissions:</strong> The extension requires access to specific domains (<code>phuongbinhtay.vn</code>, <code>qlvb.tphcm.gov.vn</code>, and <code>dhtn.dcs.vn</code>). The extension strictly operates only on these authorized domains and does not interact with or read data from any other websites.</li>
+        </ul>
 
-        <h2>4. Contact Us</h2>
-        <p>If you have any questions regarding this Privacy Policy, please contact the developer via email at:
-            <strong>vucongchinh321@gmail.com</strong></p>
+        <h2>3. Data Protection and Privacy Commitments</h2>
+        <ul>
+            <li><strong>100% Local Processing:</strong> All data involving user activity, document content, and temporary commands are processed entirely offline within your local browser environment.</li>
+            <li><strong>No Data Transmission:</strong> We do not operate external servers. The extension <strong>never transmits, shares, sells, or uploads</strong> any personal or administrative data to the Internet or third parties.</li>
+            <li><strong>Automated Data Deletion:</strong> Any command data temporarily saved in the local storage is automatically erased either immediately after the automated task completes or within a maximum of 120 seconds.</li>
+        </ul>
+
+        <h2>4. Contact Information</h2>
+        <p>If you have any questions or concerns regarding this Privacy Policy, please contact the developer via the email address provided on the Chrome Web Store Developer Dashboard.</p>
+
+        <div class="footer">
+            <p>© 2026 Hỗ trợ nghiệp vụ cấp xã. All rights reserved.</p>
+        </div>
     </div>
 </body>
-
 </html>
